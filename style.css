@@ -120,6 +120,11 @@ body {
     margin: 0 auto;
 }
 
+.boxes {
+    justify-content: center;
+    align-items: center;
+}
+
 .boxes .subtext {
     text-align: center;
     width: auto;
