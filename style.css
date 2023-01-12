@@ -113,6 +113,7 @@ a {
     padding: 20px;
     min-height: 300px;
     justify-content: space-evenly;
+    gap: 10px;
 }
 
 .second-section .main-text {
@@ -130,6 +131,11 @@ a {
     max-width: 700px;
 }
 
+.boxes {
+    display: flex;
+    gap: 8px;
+}
+
 .box {
     height: 120px;
     width: 120px;
@@ -138,11 +144,7 @@ a {
     margin: 0 auto;
 }
 
-.boxes {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
+
 
 .boxes .subtext {
     text-align: center;
