@@ -88,7 +88,6 @@ body {
 }
 
 a {
-    text-decoration: none;
     color: black;
 }
 
@@ -138,6 +137,10 @@ a {
     width: auto;
     max-width: 120px;
 }
+
+/* .resources {
+
+} */
 
 .footer {
     display: flex;
