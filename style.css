@@ -125,9 +125,21 @@ a {
     max-width: 120px;
 }
 
-/* .resources {
+.resources {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    min-height: 15vh;
+    gap: 10px;
+}
 
-} */
+.resources .main-text {
+    filter: contrast(70%);
+    font-size: 30px;
+    font-weight: 900;
+}
 
 .footer {
     display: flex;
@@ -137,4 +149,6 @@ a {
     font-size: small;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    font-size: 14px;
 }
